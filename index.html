@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hex</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+        <link rel="shortcut icon" href="favicon.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="container">
+            <header class="branding">
+                <img src="img/logo.png" alt="Hex - Random Hex Generator" class="logo" />
+
+                <h3>Type in a hex number or generate a random color</h3>
+
+                <p>Hexadecimal color codes are six-digit, three-byte hexadecimal numbers. Bytes represent red, green and blue (RGB) and each color ranges from 00 to FF: <a href="http://en.wikipedia.org/wiki/Web_colors">Wikipedia Web Colors Article</a>. This site is a JavaScript and jQuery learning exercise created by <a href="http://mikecarretta.github.io/">Mike Carretta</a>.</p>
+            </header>
+
+            <div class="input-group">
+                <input type="text" id="hex-value" placeholder="ie 40e0d0">
+                <button type="button" class="btn random">Generate Random Color</button> <button type="button" class="btn reset">Reset</button>
+            </div>
+
+            <p class="alert">Type a Hex color, do not include the #.</p>
+
+          </p>
+          <div id="colors"></div>
+
+        </div>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
