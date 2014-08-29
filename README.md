@@ -10,3 +10,6 @@ This site is a JavaScript and jQuery learning exercise created by [Mike Carretta
 
 ## License
 Hex is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+![Hex App Screenshot]
+(https://github.com/mikecarretta/hex/blob/gh-pages/screenshot.png)
