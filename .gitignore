@@ -5,3 +5,7 @@ Thumbs.db
 
 # Folders to ignore
 masters
+js/vendor
+
+# Files to ignore
+css/bootstrap.min.css
